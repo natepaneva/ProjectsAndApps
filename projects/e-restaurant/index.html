@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./assets/images/icon.png" />
+    <title>E-Restaurant</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-Contact">
+            <p class="headerParagraph">
+                <a class="mail-to" href="mailto:e-restaurant@seavus.com"><i class="fas fa-envelope envelopeHeader"></i>e-restaurant@seavus.com</a>
+                <i class="fas fa-phone phoneHeader"></i> +389 70 123 456
+            </p>
+        </div>
+        <div class="headerNavBar">
+            <a href="index.html">
+                <img src="./assets/images/icon.png" class="logoHeader"></a>
+            <a class="name-link" href="index.html">
+                <p class="logoText">Seavus Restaurant</p>
+            </a>
+            <div class="navBarLinks">
+                <div class="eatOrPickSelected" id="home">
+                    <p>home</p>
+                </div>
+                <div id="menu">
+                    <p>menu</p>
+                </div>
+                <div id="contact">
+                    <p>contact</p>
+                </div>
+                <div id="card" class="cartButton">
+                    <img src="./assets/images/cart2.png" alt="cart" />
+                    <div class="inCartQuantity"></div>
+                </div>
+                <div id="modalButton" data-toggle="modal" data-target="#formModal">
+
+                    <p>log in</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="main">
+        <div class="main-container" id="mainContainer"></div>
+    </div>
+
+    <div class="cart-overlay">
+        <div class="cart showCart">
+            <span class="close-cart">
+                <i class="fas fa-window-close"></i>
+            </span>
+            <h2 id="cartTitle">Your cart</h2>
+
+            <div class="cart-content">
+
+            </div>
+
+
+            <div class="cart-footer">
+                <!-- here -->
+            </div>
+        </div>
+
+    </div>
+
+
+    <div id="divModal">
+    </div>
+    <div id="formDivModal"></div>
+    <footer>
+        <p>SEAVUS REASTAURANT | ALL RIGHTS RESERVED</p>
+    </footer>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="./assets/script/script.js"></script>
+
+</body>
+
+/html>
