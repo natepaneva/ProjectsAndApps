@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    color: yellow;
+    overflow-x: hidden;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(./assets/Images/stars.jpg);
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medium {
+    height: 40vh;
+}
+
+.small {
+    height: 30vh;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+#btnNext, #btnPrev {
+    display: none;
+}
+
+#loader {
+    display: none;
+    width: 80px;
+}
